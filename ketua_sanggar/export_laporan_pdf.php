@@ -283,7 +283,7 @@ $html .= '
 </html>';
 
 // Load Dompdf dan render PDF
-require_once '../libs/dompdf/autoload.inc.php';
+require_once '../vendor/autoload.php';
 $dompdf = new Dompdf\Dompdf();
 $dompdf->loadHtml($html);
 $dompdf->setPaper('A4', 'portrait');
