@@ -393,7 +393,7 @@ Jalankan:
 composer install
 ```
 
-Dependency utama project adalah **Dompdf** untuk pembuatan dokumen PDF.
+Dependency utama project adalah **Dompdf**, yang dipasang melalui Composer.
 
 ### 5. Jalankan Aplikasi
 
@@ -412,7 +412,7 @@ http://localhost/penyewaan-peralatan-tari/
 
 ## Konfigurasi Upload
 
-Project menyediakan direktori upload untuk kebutuhan:
+Project menyediakan direktori upload lokal untuk kebutuhan:
 
 ```text
 uploads/
@@ -560,3 +560,38 @@ https://github.com/yt-bads/penyewaan-peralatan-tari
 License belum ditentukan pada repository ini.
 
 Sebelum project didistribusikan sebagai open-source, tambahkan file `LICENSE` sesuai lisensi yang dipilih.
+
+
+---
+
+## Environment Configuration
+
+Konfigurasi database dapat diberikan melalui environment variables:
+
+```text
+DB_HOST=localhost
+DB_NAME=penyewaan_tari
+DB_USER=root
+DB_PASS=
+```
+
+File contoh tersedia pada `.env.example`. Jangan commit file `.env` atau credential production ke repository.
+
+---
+
+## Repository Hygiene
+
+Untuk menjaga repository tetap aman dan ringan, folder berikut tidak disimpan:
+
+- `vendor/` — dependency Composer;
+- `uploads/` — bukti pembayaran dan foto pengembalian yang diunggah pengguna;
+- file environment lokal;
+- library Dompdf yang dibundel manual.
+
+Setelah clone, jalankan:
+
+```bash
+composer install
+```
+
+Database dump pada repository ini berisi **schema/struktur database tanpa data operasional atau data pengguna**. Buat akun dan data pengujian sendiri pada environment lokal.

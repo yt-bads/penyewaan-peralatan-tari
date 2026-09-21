@@ -1,0 +1,27 @@
+# Composer dependencies
+/vendor/
+/libs/dompdf/
+
+# User-generated uploads
+/uploads/*
+!/uploads/.gitkeep
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local database files
+*.sqlite
+*.sqlite3
