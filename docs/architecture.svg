@@ -1,103 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#0f172a"/>
-      <stop offset="1" stop-color="#111827"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-opacity=".22"/>
-    </filter>
-  </defs>
-  <rect width="1600" height="1000" fill="url(#bg)"/>
-  <text x="80" y="85" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700">Application Architecture</text>
-  <text x="80" y="125" fill="#94a3b8" font-family="Arial, Helvetica, sans-serif" font-size="20">Sistem Informasi Penyewaan Peralatan Tari</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="850" viewBox="0 0 1500 850">
+<rect width="1500" height="850" fill="#ffffff"/>
+<text x="60" y="65" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="700" fill="#111827">Application Architecture</text>
+<text x="60" y="98" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#6b7280">Sistem Informasi Penyewaan Peralatan Tari</text>
 
-  <g filter="url(#shadow)">
-    <rect x="70" y="190" rx="24" width="330" height="170" fill="#172554" stroke="#60a5fa" stroke-width="2"/>
-    <text x="105" y="235" fill="#dbeafe" font-family="Arial" font-size="24" font-weight="700">Presentation Layer</text>
-    <text x="105" y="278" fill="#bfdbfe" font-family="Arial" font-size="18">Browser / Responsive UI</text>
-    <text x="105" y="312" fill="#bfdbfe" font-family="Arial" font-size="18">HTML • CSS • JavaScript</text>
-    <text x="105" y="346" fill="#bfdbfe" font-family="Arial" font-size="18">Customer & Admin Pages</text>
-  </g>
+<rect x="55" y="150" width="300" height="150" rx="16" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="80" y="190" font-family="Arial" font-size="23" font-weight="700" fill="#1d4ed8">Presentation Layer</text>
+<text x="80" y="225" font-family="Arial" font-size="17" fill="#1f2937">Browser / Responsive UI</text>
+<text x="80" y="252" font-family="Arial" font-size="17" fill="#1f2937">HTML • CSS • JavaScript</text>
+<text x="80" y="279" font-family="Arial" font-size="17" fill="#1f2937">Customer & Admin Pages</text>
 
-  <g filter="url(#shadow)">
-    <rect x="455" y="160" rx="24" width="690" height="240" fill="#1e293b" stroke="#38bdf8" stroke-width="2"/>
-    <text x="495" y="210" fill="#e0f2fe" font-family="Arial" font-size="26" font-weight="700">Application Layer — PHP</text>
+<rect x="415" y="125" width="670" height="200" rx="16" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+<text x="445" y="165" font-family="Arial" font-size="23" font-weight="700" fill="#0f766e">Application Layer — PHP</text>
+<rect x="445" y="190" width="190" height="95" rx="10" fill="#ecfeff" stroke="#0891b2"/>
+<text x="465" y="225" font-family="Arial" font-size="17" font-weight="700" fill="#0e7490">Authentication</text>
+<text x="465" y="250" font-family="Arial" font-size="15" fill="#374151">Session + Role</text>
+<text x="465" y="273" font-family="Arial" font-size="15" fill="#374151">Access Control</text>
+<rect x="655" y="190" width="190" height="95" rx="10" fill="#eff6ff" stroke="#2563eb"/>
+<text x="675" y="225" font-family="Arial" font-size="17" font-weight="700" fill="#1d4ed8">Business Logic</text>
+<text x="675" y="250" font-family="Arial" font-size="15" fill="#374151">Booking • Stock</text>
+<text x="675" y="273" font-family="Arial" font-size="15" fill="#374151">Return • Fine</text>
+<rect x="865" y="190" width="170" height="95" rx="10" fill="#f5f3ff" stroke="#7c3aed"/>
+<text x="885" y="225" font-family="Arial" font-size="17" font-weight="700" fill="#6d28d9">Reporting</text>
+<text x="885" y="250" font-family="Arial" font-size="15" fill="#374151">Dompdf</text>
+<text x="885" y="273" font-family="Arial" font-size="15" fill="#374151">PDF Export</text>
 
-    <rect x="490" y="245" rx="14" width="185" height="110" fill="#0f766e"/>
-    <text x="512" y="285" fill="#ccfbf1" font-family="Arial" font-size="18" font-weight="700">Authentication</text>
-    <text x="512" y="316" fill="#ccfbf1" font-family="Arial" font-size="15">Session + Role</text>
-    <text x="512" y="340" fill="#ccfbf1" font-family="Arial" font-size="15">Access Control</text>
+<rect x="1145" y="150" width="300" height="150" rx="16" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="1170" y="190" font-family="Arial" font-size="23" font-weight="700" fill="#6d28d9">Data & Files</text>
+<text x="1170" y="225" font-family="Arial" font-size="17" fill="#1f2937">MySQL / MariaDB</text>
+<text x="1170" y="252" font-family="Arial" font-size="17" fill="#1f2937">Uploads / User Files</text>
+<text x="1170" y="279" font-family="Arial" font-size="17" fill="#1f2937">Composer Dependencies</text>
 
-    <rect x="700" y="245" rx="14" width="185" height="110" fill="#1d4ed8"/>
-    <text x="720" y="285" fill="#dbeafe" font-family="Arial" font-size="18" font-weight="700">Business Logic</text>
-    <text x="720" y="316" fill="#dbeafe" font-family="Arial" font-size="15">Booking • Stock</text>
-    <text x="720" y="340" fill="#dbeafe" font-family="Arial" font-size="15">Return • Fine</text>
+<line x1="355" y1="225" x2="415" y2="225" stroke="#6b7280" stroke-width="3"/>
+<polygon points="415,225 400,217 400,233" fill="#6b7280"/>
+<line x1="1085" y1="225" x2="1145" y2="225" stroke="#6b7280" stroke-width="3"/>
+<polygon points="1145,225 1130,217 1130,233" fill="#6b7280"/>
 
-    <rect x="910" y="245" rx="14" width="200" height="110" fill="#7c3aed"/>
-    <text x="934" y="285" fill="#ede9fe" font-family="Arial" font-size="18" font-weight="700">Reporting</text>
-    <text x="934" y="316" fill="#ede9fe" font-family="Arial" font-size="15">Dompdf</text>
-    <text x="934" y="340" fill="#ede9fe" font-family="Arial" font-size="15">PDF Export</text>
-  </g>
+<text x="55" y="385" font-family="Arial" font-size="23" font-weight="700" fill="#111827">Role-specific modules</text>
 
-  <g filter="url(#shadow)">
-    <rect x="1185" y="190" rx="24" width="340" height="170" fill="#1f2937" stroke="#a78bfa" stroke-width="2"/>
-    <text x="1220" y="235" fill="#ede9fe" font-family="Arial" font-size="24" font-weight="700">Data & Files</text>
-    <text x="1220" y="278" fill="#ddd6fe" font-family="Arial" font-size="18">MySQL / MariaDB</text>
-    <text x="1220" y="312" fill="#ddd6fe" font-family="Arial" font-size="18">Uploads / User Files</text>
-    <text x="1220" y="346" fill="#ddd6fe" font-family="Arial" font-size="18">Composer Dependencies</text>
-  </g>
+<rect x="55" y="420" width="315" height="145" rx="14" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="80" y="458" font-family="Arial" font-size="21" font-weight="700" fill="#1d4ed8">Pelanggan</text>
+<text x="80" y="492" font-family="Arial" font-size="16" fill="#374151">Catalog • Booking • Payment</text>
+<text x="80" y="518" font-family="Arial" font-size="16" fill="#374151">Return • Order History</text>
+<text x="80" y="544" font-family="Arial" font-size="16" fill="#374151">Profile</text>
 
-  <line x1="400" y1="275" x2="455" y2="275" stroke="#94a3b8" stroke-width="4"/>
-  <polygon points="455,275 440,267 440,283" fill="#94a3b8"/>
-  <line x1="1145" y1="275" x2="1185" y2="275" stroke="#94a3b8" stroke-width="4"/>
-  <polygon points="1185,275 1170,267 1170,283" fill="#94a3b8"/>
+<rect x="400" y="420" width="315" height="145" rx="14" fill="#ecfdf5" stroke="#059669" stroke-width="2"/>
+<text x="425" y="458" font-family="Arial" font-size="21" font-weight="700" fill="#047857">Admin Pengelola</text>
+<text x="425" y="492" font-family="Arial" font-size="16" fill="#374151">Orders • Verification</text>
+<text x="425" y="518" font-family="Arial" font-size="16" fill="#374151">Status Updates • Reports</text>
+<text x="425" y="544" font-family="Arial" font-size="16" fill="#374151">Payment Monitoring</text>
 
-  <g filter="url(#shadow)">
-    <rect x="85" y="500" rx="22" width="330" height="175" fill="#132e4a" stroke="#60a5fa" stroke-width="2"/>
-    <text x="120" y="545" fill="#dbeafe" font-family="Arial" font-size="24" font-weight="700">Pelanggan</text>
-    <text x="120" y="582" fill="#bfdbfe" font-family="Arial" font-size="16">Catalog • Booking</text>
-    <text x="120" y="610" fill="#bfdbfe" font-family="Arial" font-size="16">Payment Proof • Return</text>
-    <text x="120" y="638" fill="#bfdbfe" font-family="Arial" font-size="16">Order History • Profile</text>
-  </g>
+<rect x="745" y="420" width="315" height="145" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="770" y="458" font-family="Arial" font-size="21" font-weight="700" fill="#b45309">Admin Gudang</text>
+<text x="770" y="492" font-family="Arial" font-size="16" fill="#374151">Equipment • Inventory</text>
+<text x="770" y="518" font-family="Arial" font-size="16" fill="#374151">Returns • Fine Calculation</text>
+<text x="770" y="544" font-family="Arial" font-size="16" fill="#374151">Stock History</text>
 
-  <g filter="url(#shadow)">
-    <rect x="465" y="500" rx="22" width="330" height="175" fill="#14352f" stroke="#2dd4bf" stroke-width="2"/>
-    <text x="500" y="545" fill="#ccfbf1" font-family="Arial" font-size="24" font-weight="700">Admin Pengelola</text>
-    <text x="500" y="582" fill="#99f6e4" font-family="Arial" font-size="16">Orders • Verification</text>
-    <text x="500" y="610" fill="#99f6e4" font-family="Arial" font-size="16">Status Updates • Reports</text>
-    <text x="500" y="638" fill="#99f6e4" font-family="Arial" font-size="16">Payment Monitoring</text>
-  </g>
+<rect x="1090" y="420" width="315" height="145" rx="14" fill="#faf5ff" stroke="#7c3aed" stroke-width="2"/>
+<text x="1115" y="458" font-family="Arial" font-size="21" font-weight="700" fill="#6d28d9">Ketua Sanggar</text>
+<text x="1115" y="492" font-family="Arial" font-size="16" fill="#374151">Monitoring</text>
+<text x="1115" y="518" font-family="Arial" font-size="16" fill="#374151">Reports • PDF</text>
+<text x="1115" y="544" font-family="Arial" font-size="16" fill="#374151">Transaction Overview</text>
 
-  <g filter="url(#shadow)">
-    <rect x="845" y="500" rx="22" width="330" height="175" fill="#32250f" stroke="#f59e0b" stroke-width="2"/>
-    <text x="880" y="545" fill="#fef3c7" font-family="Arial" font-size="24" font-weight="700">Admin Gudang</text>
-    <text x="880" y="582" fill="#fde68a" font-family="Arial" font-size="16">Equipment • Inventory</text>
-    <text x="880" y="610" fill="#fde68a" font-family="Arial" font-size="16">Returns • Fine Calculation</text>
-    <text x="880" y="638" fill="#fde68a" font-family="Arial" font-size="16">Stock History</text>
-  </g>
-
-  <g filter="url(#shadow)">
-    <rect x="1225" y="500" rx="22" width="290" height="175" fill="#291c3d" stroke="#c084fc" stroke-width="2"/>
-    <text x="1260" y="545" fill="#f3e8ff" font-family="Arial" font-size="24" font-weight="700">Ketua Sanggar</text>
-    <text x="1260" y="582" fill="#e9d5ff" font-family="Arial" font-size="16">Monitoring</text>
-    <text x="1260" y="610" fill="#e9d5ff" font-family="Arial" font-size="16">Reports • PDF</text>
-    <text x="1260" y="638" fill="#e9d5ff" font-family="Arial" font-size="16">Transaction Overview</text>
-  </g>
-
-  <text x="80" y="755" fill="#cbd5e1" font-family="Arial" font-size="18" font-weight="700">Cross-cutting technical concerns</text>
-  <g font-family="Arial" font-size="16" fill="#cbd5e1">
-    <text x="85" y="792">• PDO Prepared Statements</text>
-    <text x="395" y="792">• Session-based Authentication</text>
-    <text x="765" y="792">• Role-based Authorization</text>
-    <text x="1080" y="792">• Database Transactions</text>
-    <text x="85" y="828">• Password Hashing</text>
-    <text x="395" y="828">• Responsive UI</text>
-    <text x="765" y="828">• PDF Generation with Dompdf</text>
-    <text x="1080" y="828">• Local Upload Workflow</text>
-  </g>
-
-  <rect x="80" y="885" width="1440" height="1" fill="#334155"/>
-  <text x="80" y="925" fill="#64748b" font-family="Arial" font-size="15">Portfolio documentation • Architecture based on current repository structure</text>
+<line x1="55" y1="620" x2="1445" y2="620" stroke="#e5e7eb"/>
+<text x="55" y="665" font-family="Arial" font-size="19" font-weight="700" fill="#111827">Cross-cutting technical concerns</text>
+<text x="55" y="705" font-family="Arial" font-size="16" fill="#374151">PDO Prepared Statements</text>
+<text x="320" y="705" font-family="Arial" font-size="16" fill="#374151">Session Authentication</text>
+<text x="560" y="705" font-family="Arial" font-size="16" fill="#374151">Role Authorization</text>
+<text x="790" y="705" font-family="Arial" font-size="16" fill="#374151">Database Transactions</text>
+<text x="1075" y="705" font-family="Arial" font-size="16" fill="#374151">Password Hashing</text>
+<text x="55" y="742" font-family="Arial" font-size="16" fill="#374151">Responsive UI</text>
+<text x="320" y="742" font-family="Arial" font-size="16" fill="#374151">PDF Generation</text>
+<text x="560" y="742" font-family="Arial" font-size="16" fill="#374151">Local Upload Workflow</text>
+<text x="790" y="742" font-family="Arial" font-size="16" fill="#374151">Inventory Management</text>
+<text x="1075" y="742" font-family="Arial" font-size="16" fill="#374151">Rental Lifecycle</text>
 </svg>
