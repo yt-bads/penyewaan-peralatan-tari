@@ -214,6 +214,43 @@ Setiap halaman internal menggunakan pemeriksaan login dan role sebelum fitur dap
 
 ---
 
+## Project Showcase
+
+### Architecture
+
+The application is organized into a presentation layer, PHP application layer, data/file layer, and role-specific modules.
+
+![Application Architecture](docs/architecture.svg)
+
+### Database Design
+
+The database separates users, rental transactions, rental details, equipment, returns, and stock movement history through relational keys.
+
+![Entity Relationship Diagram](docs/erd.svg)
+
+### Business Workflow
+
+The core workflow connects customer booking, payment verification, warehouse fulfillment, return processing, fine handling, and management reporting.
+
+![Business Workflow](docs/business-workflow.svg)
+
+### UI Screenshots
+
+Real application screenshots will be added here after capturing the current application from the local XAMPP environment. This keeps the repository showcase faithful to the actual UI rather than using mockups.
+
+Recommended screenshots:
+
+- Customer catalog
+- Customer rental form
+- Customer order detail
+- Admin Pengelola dashboard / order verification
+- Admin Gudang inventory
+- Return / fine management
+- Ketua Sanggar monitoring
+- PDF report output
+
+---
+
 ## Arsitektur Aplikasi
 
 Struktur utama project:
