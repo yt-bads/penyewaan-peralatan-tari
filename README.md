@@ -216,39 +216,40 @@ Setiap halaman internal menggunakan pemeriksaan login dan role sebelum fitur dap
 
 ## Project Showcase
 
-### Architecture
+The visual showcase is intentionally focused: the diagrams explain the system structure, while the UI section is reserved for a single representative screenshot rather than a long gallery.
+
+<details>
+<summary>Architecture Diagram</summary>
 
 The application is organized into a presentation layer, PHP application layer, data/file layer, and role-specific modules.
 
-![Application Architecture](docs/architecture.svg)
+![Application architecture diagram showing the presentation, PHP application, data, and role-specific layers.](docs/architecture.svg)
 
-### Database Design
+</details>
+
+<details>
+<summary>Database Design / ERD</summary>
 
 The database separates users, rental transactions, rental details, equipment, returns, and stock movement history through relational keys.
 
-![Entity Relationship Diagram](docs/erd.svg)
+![Entity relationship diagram showing the main rental system database tables and foreign-key relationships.](docs/erd.svg)
 
-### Business Workflow
+</details>
+
+<details>
+<summary>Business Workflow</summary>
 
 The core workflow connects customer booking, payment verification, warehouse fulfillment, return processing, fine handling, and management reporting.
 
-![Business Workflow](docs/business-workflow.svg)
+![Business workflow diagram showing the rental lifecycle from customer booking to management reporting.](docs/business-workflow.svg)
 
-### UI Screenshots
+</details>
 
-Real application screenshots will be added here after capturing the current application from the local XAMPP environment. This keeps the repository showcase faithful to the actual UI rather than using mockups.
+### UI Preview
 
-Recommended screenshots:
+For the portfolio presentation, one representative screenshot is enough to communicate the actual interface. The rest of the README focuses on capabilities, architecture, business logic, and implementation details.
 
-- Customer catalog
-- Customer rental form
-- Customer order detail
-- Admin Pengelola dashboard / order verification
-- Admin Gudang inventory
-- Return / fine management
-- Ketua Sanggar monitoring
-- PDF report output
-
+A real screenshot can be added later under `docs/screenshots/` without turning the README into a long image gallery.
 ---
 
 ## Arsitektur Aplikasi
