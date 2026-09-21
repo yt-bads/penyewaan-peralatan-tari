@@ -5,6 +5,14 @@
 # User-generated uploads
 /uploads/*
 !/uploads/.gitkeep
+!/uploads/bukti/
+!/uploads/bukti/.gitkeep
+!/uploads/foto_pengembalian/
+!/uploads/foto_pengembalian/.gitkeep
+/uploads/bukti/*
+!/uploads/bukti/.gitkeep
+/uploads/foto_pengembalian/*
+!/uploads/foto_pengembalian/.gitkeep
 
 # Environment / secrets
 .env
