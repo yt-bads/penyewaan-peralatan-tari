@@ -1,10 +1,10 @@
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- Waktu pembuatan: 01 Jul 2026 pada 15.44
--- Versi server: 10.4.32-MariaDB
+-- Database schema for Sistem Informasi Penyewaan Peralatan Tari
+-- Schema-only dump for local setup.
+-- No user, transaction, payment-proof, or other runtime records are included.
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
 -- Versi PHP: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
