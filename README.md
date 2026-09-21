@@ -554,9 +554,3 @@ Repository:
 https://github.com/yt-bads/penyewaan-peralatan-tari
 
 ---
-
-## License
-
-License belum ditentukan pada repository ini.
-
-Sebelum project didistribusikan sebagai open-source, tambahkan file `LICENSE` sesuai lisensi yang dipilih.
