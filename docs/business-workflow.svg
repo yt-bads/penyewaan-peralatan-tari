@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="900" viewBox="0 0 1700 900">
+  <defs>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="6" stdDeviation="9" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="1700" height="900" fill="#0b1120"/>
+  <text x="70" y="80" fill="#f8fafc" font-family="Arial" font-size="42" font-weight="700">Business Workflow</text>
+  <text x="70" y="118" fill="#94a3b8" font-family="Arial" font-size="20">From rental request to return, fine handling, and management reporting</text>
+
+  <g filter="url(#s)">
+    <rect x="80" y="210" rx="24" width="275" height="260" fill="#132e4a" stroke="#60a5fa" stroke-width="2"/>
+    <text x="115" y="255" fill="#dbeafe" font-family="Arial" font-size="25" font-weight="700">01 • Customer</text>
+    <text x="115" y="300" fill="#bfdbfe" font-family="Arial" font-size="18">Register / Login</text>
+    <text x="115" y="334" fill="#bfdbfe" font-family="Arial" font-size="18">Browse Catalog</text>
+    <text x="115" y="368" fill="#bfdbfe" font-family="Arial" font-size="18">Create Rental Order</text>
+    <text x="115" y="402" fill="#bfdbfe" font-family="Arial" font-size="18">Upload Payment Proof</text>
+    <text x="115" y="436" fill="#bfdbfe" font-family="Arial" font-size="18">Track Order</text>
+  </g>
+
+  <g filter="url(#s)">
+    <rect x="415" y="210" rx="24" width="275" height="260" fill="#14352f" stroke="#2dd4bf" stroke-width="2"/>
+    <text x="450" y="255" fill="#ccfbf1" font-family="Arial" font-size="25" font-weight="700">02 • Management</text>
+    <text x="450" y="300" fill="#99f6e4" font-family="Arial" font-size="18">Review Orders</text>
+    <text x="450" y="334" fill="#99f6e4" font-family="Arial" font-size="18">Verify Payment</text>
+    <text x="450" y="368" fill="#99f6e4" font-family="Arial" font-size="18">Update Rental Status</text>
+    <text x="450" y="402" fill="#99f6e4" font-family="Arial" font-size="18">Prepare for Fulfillment</text>
+    <text x="450" y="436" fill="#99f6e4" font-family="Arial" font-size="18">Generate Reports</text>
+  </g>
+
+  <g filter="url(#s)">
+    <rect x="750" y="210" rx="24" width="275" height="260" fill="#32250f" stroke="#f59e0b" stroke-width="2"/>
+    <text x="785" y="255" fill="#fef3c7" font-family="Arial" font-size="25" font-weight="700">03 • Warehouse</text>
+    <text x="785" y="300" fill="#fde68a" font-family="Arial" font-size="18">Check Inventory</text>
+    <text x="785" y="334" fill="#fde68a" font-family="Arial" font-size="18">Release Equipment</text>
+    <text x="785" y="368" fill="#fde68a" font-family="Arial" font-size="18">Record Stock Out</text>
+    <text x="785" y="402" fill="#fde68a" font-family="Arial" font-size="18">Record Return</text>
+    <text x="785" y="436" fill="#fde68a" font-family="Arial" font-size="18">Calculate Fine</text>
+  </g>
+
+  <g filter="url(#s)">
+    <rect x="1085" y="210" rx="24" width="275" height="260" fill="#291c3d" stroke="#c084fc" stroke-width="2"/>
+    <text x="1120" y="255" fill="#f3e8ff" font-family="Arial" font-size="25" font-weight="700">04 • Customer Return</text>
+    <text x="1120" y="300" fill="#e9d5ff" font-family="Arial" font-size="18">Submit Return Photo</text>
+    <text x="1120" y="334" fill="#e9d5ff" font-family="Arial" font-size="18">Settle Fine if Required</text>
+    <text x="1120" y="368" fill="#e9d5ff" font-family="Arial" font-size="18">Track Final Status</text>
+    <text x="1120" y="402" fill="#e9d5ff" font-family="Arial" font-size="18">Order Becomes Complete</text>
+  </g>
+
+  <g filter="url(#s)">
+    <rect x="1420" y="210" rx="24" width="200" height="260" fill="#1e293b" stroke="#94a3b8" stroke-width="2"/>
+    <text x="1455" y="255" fill="#e2e8f0" font-family="Arial" font-size="24" font-weight="700">05 • Leader</text>
+    <text x="1455" y="300" fill="#cbd5e1" font-family="Arial" font-size="18">Monitor</text>
+    <text x="1455" y="334" fill="#cbd5e1" font-family="Arial" font-size="18">Analyze</text>
+    <text x="1455" y="368" fill="#cbd5e1" font-family="Arial" font-size="18">Report</text>
+    <text x="1455" y="402" fill="#cbd5e1" font-family="Arial" font-size="18">PDF Export</text>
+  </g>
+
+  <g stroke="#64748b" stroke-width="5" fill="none">
+    <line x1="355" y1="340" x2="415" y2="340"/>
+    <line x1="690" y1="340" x2="750" y2="340"/>
+    <line x1="1025" y1="340" x2="1085" y2="340"/>
+    <line x1="1360" y1="340" x2="1420" y2="340"/>
+  </g>
+  <g fill="#64748b">
+    <polygon points="415,340 397,331 397,349"/>
+    <polygon points="750,340 732,331 732,349"/>
+    <polygon points="1085,340 1067,331 1067,349"/>
+    <polygon points="1420,340 1402,331 1402,349"/>
+  </g>
+
+  <rect x="80" y="585" width="1540" height="1" fill="#334155"/>
+  <text x="80" y="635" fill="#cbd5e1" font-family="Arial" font-size="22" font-weight="700">System controls applied throughout the workflow</text>
+  <g fill="#94a3b8" font-family="Arial" font-size="18">
+    <text x="90" y="685">• Authentication & role authorization</text>
+    <text x="490" y="685">• Prepared statements via PDO</text>
+    <text x="850" y="685">• Database transactions for stock operations</text>
+    <text x="90" y="730">• Payment status lifecycle</text>
+    <text x="490" y="730">• Stock movement history</text>
+    <text x="850" y="730">• PDF reporting and monitoring</text>
+  </g>
+</svg>
