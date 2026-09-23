@@ -247,16 +247,10 @@ The core workflow connects customer booking, payment verification, warehouse ful
 
 ### UI Preview
 
-For the portfolio presentation, one representative screenshot is enough to communicate the actual interface. The rest of the README focuses on capabilities, architecture, business logic, and implementation details.
+The portfolio uses one representative application screenshot so the README stays focused on system capabilities rather than becoming a long image gallery.
 
-The current implementation is shown below through a single representative screenshot, keeping the README focused while still providing concrete UI evidence.
-
-### UI Preview
-
-**Admin Pengelola Dashboard**  
+**Planned screenshot:** Admin Pengelola Dashboard  
 A centralized dashboard for monitoring rental activity, payment verification, active orders, completed rentals, and operational revenue.
-
-![Admin Pengelola dashboard preview](docs/screenshots/admin-pengelola-dashboard.jpg)
 
 ---
 
