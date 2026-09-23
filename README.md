@@ -249,8 +249,10 @@ The core workflow connects customer booking, payment verification, warehouse ful
 
 The portfolio uses one representative application screenshot so the README stays focused on system capabilities rather than becoming a long image gallery.
 
-**Planned screenshot:** Admin Pengelola Dashboard  
+**Admin Pengelola Dashboard**  
 A centralized dashboard for monitoring rental activity, payment verification, active orders, completed rentals, and operational revenue.
+
+![Admin Pengelola dashboard preview](docs/screenshots/admin-pengelola-dashboard.jpg)
 
 ---
 
